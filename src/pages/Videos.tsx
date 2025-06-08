@@ -75,22 +75,31 @@ const Videos = () => {
             {/* Channel Stats */}
             <div className="flex justify-center items-center gap-8 mb-8">
               <div className="text-center">
-                <div className="text-3xl font-bold hr-blue">14K+</div>
+                <div className="text-3xl font-bold hr-blue">1.4K+</div>
                 <div className="text-muted-foreground">Subscribers</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold hr-blue">50+</div>
+                <div className="text-3xl font-bold hr-blue">95+</div>
                 <div className="text-muted-foreground">Videos</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold hr-blue">200K+</div>
+                <div className="text-3xl font-bold hr-blue">40K+</div>
                 <div className="text-muted-foreground">Total Views</div>
               </div>
             </div>
-
-            <Button size="lg" className="bg-red-600 hover:bg-red-700 text-white">
+            <Button
+              size="lg"
+              className="bg-red-600 hover:bg-red-700 text-white"
+              asChild
+            >
+              <a
+              href="https://youtube.com/@pavithrasimonhr?feature=shared"
+              target="_blank"
+              rel="noopener noreferrer"
+              >
               <Youtube className="w-5 h-5 mr-2" />
               Subscribe to My Channel
+              </a>
             </Button>
           </div>
 

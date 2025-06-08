@@ -30,7 +30,12 @@ const Index = () => {
                 <Button asChild size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90">
                   <Link to="/contact">Let's Connect</Link>
                 </Button>
-                <Button asChild variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary">
+                <Button
+                  asChild
+                  variant="secondary"
+                  size="lg"
+                  className="bg-white text-accent hover:bg-accent hover:text-white border-0 transition-colors"
+                >
                   <Link to="/videos">Watch My Videos</Link>
                 </Button>
               </div>
@@ -39,12 +44,12 @@ const Index = () => {
             <div className="relative animate-float">
               <div className="w-80 h-80 mx-auto relative">
                 <img
-                  src="https://images.unsplash.com/photo-1649972904349-6e44c42644a7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                  src="simon.jpg"
                   alt="Pavithra Simon - HR Specialist"
                   className="w-full h-full object-cover rounded-full border-8 border-white/20 shadow-2xl"
                 />
                 <div className="absolute -top-4 -right-4 bg-accent text-accent-foreground px-4 py-2 rounded-full font-semibold shadow-lg">
-                  14K+ YouTube Followers
+                  1.4K+ YouTube Subscribers
                 </div>
               </div>
             </div>
@@ -155,6 +160,9 @@ const Index = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <p className="text-muted-foreground">
             © 2024 Pavithra Simon. Empowering careers through authentic HR leadership.
+          </p>
+          <p className="text-xs text-muted-foreground mt-2">
+            Built by Shatakshi Gupta.
           </p>
         </div>
       </footer>

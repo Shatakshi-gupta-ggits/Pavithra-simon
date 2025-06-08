@@ -1,4 +1,3 @@
-
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
@@ -55,15 +54,17 @@ const Contact = () => {
             <Card className="border-0 shadow-xl">
               <CardContent className="p-8">
                 <h2 className="text-2xl font-bold mb-6 hr-blue">Send a Message</h2>
-                <form onSubmit={handleSubmit} className="space-y-6">
+                <form
+                  action="https://formsubmit.co/shatakshig2005@gmail.com"
+                  method="POST"
+                  className="space-y-6"
+                >
                   <div className="grid sm:grid-cols-2 gap-4">
                     <div>
                       <Label htmlFor="name">Full Name</Label>
                       <Input
                         id="name"
-                        name="name"
-                        value={formData.name}
-                        onChange={handleChange}
+                        name="Full Name"
                         required
                         className="mt-2"
                         placeholder="Your full name"
@@ -73,43 +74,34 @@ const Contact = () => {
                       <Label htmlFor="email">Email Address</Label>
                       <Input
                         id="email"
-                        name="email"
+                        name="Email"
                         type="email"
-                        value={formData.email}
-                        onChange={handleChange}
                         required
                         className="mt-2"
                         placeholder="your.email@example.com"
                       />
                     </div>
                   </div>
-                  
                   <div>
                     <Label htmlFor="subject">Subject</Label>
                     <Input
                       id="subject"
-                      name="subject"
-                      value={formData.subject}
-                      onChange={handleChange}
+                      name="Subject"
                       required
                       className="mt-2"
                       placeholder="What would you like to discuss?"
                     />
                   </div>
-                  
                   <div>
                     <Label htmlFor="message">Message</Label>
                     <Textarea
                       id="message"
-                      name="message"
-                      value={formData.message}
-                      onChange={handleChange}
+                      name="Message"
                       required
                       className="mt-2 min-h-32"
                       placeholder="Tell me more about your inquiry..."
                     />
                   </div>
-                  
                   <Button type="submit" size="lg" className="w-full">
                     Send Message
                     <ArrowUp className="w-4 h-4 ml-2 rotate-45" />
@@ -147,33 +139,39 @@ const Contact = () => {
               <Card className="border-0 shadow-lg">
                 <CardContent className="p-8">
                   <h3 className="text-xl font-semibold mb-6 hr-blue">Connect on Social Media</h3>
-                  <div className="space-y-4">
+                    <div className="space-y-4">
                     <a 
-                      href="#" 
+                      href="https://www.linkedin.com/in/pavithra-simon-%E2%9C%8D%F0%9F%8F%BC-906059180?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" 
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="flex items-center gap-4 p-4 rounded-lg border hover:bg-muted/50 transition-colors"
                     >
                       <div className="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center">
-                        <Linkedin className="w-6 h-6 text-white" />
+                      <Linkedin className="w-6 h-6 text-white" />
                       </div>
                       <div>
-                        <h4 className="font-semibold">LinkedIn</h4>
-                        <p className="text-sm text-muted-foreground">Professional network & insights</p>
+                      <h4 className="font-semibold">LinkedIn</h4>
+                      <p className="text-sm text-muted-foreground">Professional network & insights</p>
                       </div>
+
                     </a>
                     
                     <a 
-                      href="#" 
+                      href="https://youtube.com/@pavithrasimonhr?feature=shared"
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="flex items-center gap-4 p-4 rounded-lg border hover:bg-muted/50 transition-colors"
                     >
                       <div className="w-12 h-12 bg-red-600 rounded-full flex items-center justify-center">
-                        <Youtube className="w-6 h-6 text-white" />
+                      <Youtube className="w-6 h-6 text-white" />
                       </div>
                       <div>
-                        <h4 className="font-semibold">YouTube Channel</h4>
-                        <p className="text-sm text-muted-foreground">14K+ subscribers • HR insights & advice</p>
+                      <h4 className="font-semibold">YouTube Channel</h4>
+                      <p className="text-sm text-muted-foreground">14K+ subscribers • HR insights & advice</p>
                       </div>
+                      
                     </a>
-                  </div>
+                    </div>
                 </CardContent>
               </Card>
 
