@@ -1,4 +1,3 @@
-
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
@@ -6,14 +5,14 @@ import Navigation from '@/components/Navigation';
 import { ArrowUp } from 'lucide-react';
 
 const Blog = () => {
+  // Featured Post Data
   const featuredPost = {
-    title: "Never Allow Anyone at Your Workplace to Violate Your Boundaries!",
-    excerpt: "Setting and maintaining professional boundaries is crucial for career success and mental well-being. Here's how to establish clear boundaries while maintaining positive relationships.",
-    author: "Pavithra Simon",
-    date: "December 2024",
-    readTime: "5 min read",
-    category: "Workplace Dynamics",
-    image: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+    title: "The Future of HR: Embracing Digital Transformation",
+    excerpt: "How HR professionals can lead organizational change and embrace emerging technologies to create more efficient and human-centered workplaces.",
+    date: "November 2024",
+    readTime: "7 min read",
+    category: "HR Technology",
+    image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
   };
 
   const blogPosts = [
@@ -167,6 +166,19 @@ const Blog = () => {
                 </CardContent>
               </Card>
             ))}
+          </div>
+
+          {/* LinkedIn Embedded Post */}
+          <div className="flex justify-center my-12">
+            <iframe
+              src="https://www.linkedin.com/embed/feed/update/urn:li:share:7333044618525122561?collapsed=1"
+              height="670"
+              width="504"
+              frameBorder="0"
+              allowFullScreen
+              title="Embedded LinkedIn post"
+              style={{ maxWidth: "100%" }}
+            ></iframe>
           </div>
 
           {/* Newsletter Signup */}

@@ -8,52 +8,58 @@ import { Youtube, ArrowUp } from 'lucide-react';
 const Videos = () => {
   const featuredVideos = [
     {
-      title: "Never Allow Anyone at Your Workplace to Violate Your Boundaries!",
-      description: "Essential insights on maintaining professional boundaries and creating a respectful workplace culture.",
-      thumbnail: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      views: "12K",
-      duration: "8:45",
-      category: "Workplace Dynamics"
+      title: "What is OCI ?",
+      description: "",
+      youtubeId: "iHozN_n2mFg",
+      views: "130",
+      duration: "4:10",
+      category: "Now playing",
+      thumbnail: "https://img.youtube.com/vi/iHozN_n2mFg/hqdefault.jpg"
     },
     {
-      title: "HR Transformation: Adapting to the Future of Work",
-      description: "How HR professionals can lead digital transformation and embrace new workplace trends.",
-      thumbnail: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      views: "8.5K",
-      duration: "12:30",
-      category: "HR Strategy"
+      title: "Who is a COACH??",
+      description: "",
+      youtubeId: "SUzRmowhQnk",
+      views: "130",
+      duration: "4:10",
+      category: "Now playing",
+      thumbnail: "https://img.youtube.com/vi/SUzRmowhQnk/hqdefault.jpg"  
     },
     {
-      title: "Building High-Performance Teams: A Practical Guide",
-      description: "Proven strategies for creating and maintaining teams that deliver exceptional results.",
-      thumbnail: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      views: "15K",
-      duration: "10:15",
-      category: "Leadership"
+      title: "Why mental models are imp in the execution ?",
+      description: "",
+      youtubeId: "hBlGC_wLvoM",
+      views: "130",
+      duration: "4:10",
+      category: "Now playing",
+      thumbnail: "https://img.youtube.com/vi/hBlGC_wLvoM/hqdefault.jpg"  
     },
     {
-      title: "Career Growth Mindset: Think Your Way to Success",
-      description: "How mindset shapes career trajectory and practical steps to develop a growth-oriented approach.",
-      thumbnail: "https://images.unsplash.com/photo-1500673922987-e212871fec22?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      views: "11K",
-      duration: "9:20",
-      category: "Career Development"
+      title: "How to make ATS friendly resume in 5 mins ?",
+      description: "",
+      youtubeId: "DTSZ12m75XI",
+      views: "130",
+      duration: "4:10",
+      category: "Now playing",
+      thumbnail: "https://img.youtube.com/vi/DTSZ12m75XI/hqdefault.jpg"  
     },
     {
-      title: "Emotional Intelligence in HR Leadership",
-      description: "The role of emotional intelligence in effective HR management and team dynamics.",
-      thumbnail: "https://images.unsplash.com/photo-1501854140801-50d01698950b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      views: "9.8K",
-      duration: "11:45",
-      category: "Soft Skills"
+      title: "Indian work visa process explained in- detailed.",
+      description: "",
+      youtubeId: "FLZAufDXqqU",
+      views: "130",
+      duration: "4:10",
+      category: "Now playing",
+      thumbnail: "https://img.youtube.com/vi/FLZAufDXqqU/hqdefault.jpg"  
     },
     {
-      title: "Navigating Workplace Conflicts with Confidence",
-      description: "Proven techniques for resolving conflicts and maintaining positive workplace relationships.",
-      thumbnail: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      views: "13.2K",
-      duration: "7:55",
-      category: "Conflict Resolution"
+      title: "It is completely okay to fail and take a pause! Don’t try to be perfect , no one is.",
+      description: "",
+      youtubeId: "M-mfgUDHsLk",
+      views: "130",
+      duration: "4:10",
+      category: "Now playing",
+      thumbnail: "https://img.youtube.com/vi/M-mfgUDHsLk/hqdefault.jpg"  
     }
   ];
 
