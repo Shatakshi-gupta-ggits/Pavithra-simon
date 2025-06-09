@@ -55,7 +55,7 @@ const Contact = () => {
               <CardContent className="p-8">
                 <h2 className="text-2xl font-bold mb-6 hr-blue">Send a Message</h2>
                 <form
-                  action="https://formsubmit.co/shatakshig2005@gmail.com"
+                  action="https://formsubmit.co/Pavithracool43@gmail.com"
                   method="POST"
                   className="space-y-6"
                 >
@@ -207,7 +207,7 @@ const Contact = () => {
           </div>
 
           {/* Call to Action */}
-          <div className="mt-20 text-center">
+          {/* <div className="mt-20 text-center">
             <Card className="border-0 shadow-lg bg-gradient-to-r from-primary/5 to-accent/5">
               <CardContent className="p-12">
                 <h2 className="text-3xl font-bold mb-6 hr-navy">Ready to Get Started?</h2>
@@ -225,7 +225,7 @@ const Contact = () => {
                 </div>
               </CardContent>
             </Card>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
