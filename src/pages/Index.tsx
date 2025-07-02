@@ -44,7 +44,7 @@ const Index = () => {
             <div className="relative animate-float">
               <div className="w-80 h-80 mx-auto relative">
                 <img
-                  src="https://i.ibb.co/xQXRknz/Screenshot-2025-06-08-220110.png"
+                  src="pavitra.webp"
                   alt="Pavithra Simon - HR Specialist"
                   className="w-full h-full object-cover rounded-full border-8 border-white/20 shadow-2xl"
                 />
